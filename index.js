@@ -14,7 +14,7 @@ app.get('/about', (req, res)=> {
 })
 
 app.get('*', (req, res)=> {
-	res.send('404. This page does not exist. <a href>Go to HomePage</a>');
+	res.send('404. This page does not exist. <a href="/">Go to HomePage</a>');
 })
 
 app.listen(3000, ()=> {
