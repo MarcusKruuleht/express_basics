@@ -1,14 +1,23 @@
 {
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
   "name": "express_basics",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusKruuleht/express_basics.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+  "bugs": {
+    "url": "https://github.com/MarcusKruuleht/express_basics/issues"
+  },
+  "homepage": "https://github.com/MarcusKruuleht/express_basics#readme",
+  "description": ""
 }
